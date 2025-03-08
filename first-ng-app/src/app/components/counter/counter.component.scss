@@ -1,0 +1,30 @@
+
+
+.buttons-container{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+
+    button {
+        height: 30px;
+        border: 1px solid #b2bec3;
+        background-color: #dfe6e9;
+        font-weight: 500;
+        border-radius: 8px;
+        font-size: 10px;
+        transition: .2s opacity ease-in-out;
+        padding: 0 10px;
+        box-shadow: 1px 4px 4px -3px rgba(0,0,0,0.58);
+        -webkit-box-shadow: 1px 4px 4px -3px rgba(0,0,0,0.58);
+        -moz-box-shadow: 1px 4px 4px -3px rgba(0,0,0,0.58);
+    }
+
+    button:hover {
+        opacity: .8;
+        cursor: pointer; 
+        transition: .2s opacity ease-in-out;
+        box-shadow: 1px 4px 4px -3px rgba(0,0,0,0.58);
+        -webkit-box-shadow: 1px 4px 4px -3px rgba(0,0,0,0.58);
+        -moz-box-shadow: 1px 4px 4px -3px rgba(0,0,0,0.58);
+    }
+}
